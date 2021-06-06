@@ -35,6 +35,7 @@ namespace QuanLyDuongPho.view
                         _streetController.XoaThongTinDuong();
                         break;
                     case 5:
+                        Console.WriteLine("Tạm biệt, hẹn gặp lại!");
                         break;
                     default:
                         Console.WriteLine("Lựa chọn sai, vui lòng chọn lại.");
@@ -43,7 +44,7 @@ namespace QuanLyDuongPho.view
                 Console.ReadLine();
                 if (choice == 5)
                 {
-                    Console.WriteLine("Tạm biệt, hẹn gặp lại !");
+                   break;
                 }
 
             }
